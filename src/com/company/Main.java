@@ -13,5 +13,14 @@ public class Main {
         myCircularQueue.deQueue();  // return True
         myCircularQueue.enQueue(4); // return True
         myCircularQueue.Rear();     // return 4
+
+
+        NumberOfIslands numberOfIslands = new NumberOfIslands();
+        char[][] grid =
+                {{'1','1','1','1','0'},
+                {'1','1','0','1','0'},
+                {'1','1','0','0','0'},
+                {'0','0','0','0','0'}};
+        System.out.println(numberOfIslands.numIslands(grid));
     }
 }
