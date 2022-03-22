@@ -1,4 +1,5 @@
-package com.company;
+package com.company.Queue;
+
 
 public class Main {
 
@@ -14,13 +15,5 @@ public class Main {
         myCircularQueue.enQueue(4); // return True
         myCircularQueue.Rear();     // return 4
 
-
-        NumberOfIslands numberOfIslands = new NumberOfIslands();
-        char[][] grid =
-                {{'1','1','1','1','0'},
-                {'1','1','0','1','0'},
-                {'1','1','0','0','0'},
-                {'0','0','0','0','0'}};
-        System.out.println(numberOfIslands.numIslands(grid));
     }
 }

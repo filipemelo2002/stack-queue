@@ -1,4 +1,4 @@
-package com.company;
+package com.company.BFS;
 
 
 import java.util.LinkedList;
